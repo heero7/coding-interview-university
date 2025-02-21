@@ -586,14 +586,14 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [x] New raw data array with allocated memory
+        - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [x] size() - number of items
-        - [x] capacity() - number of items it can hold
-        - [x] is_empty()
-        - [x] at(index) - returns the item at a given index, blows up if index out of bounds
-        - [x] push(item)
+        - [ ] size() - number of items
+        - [ ] capacity() - number of items it can hold
+        - [ ] is_empty()
+        - [ ] at(index) - returns the item at a given index, blows up if index out of bounds
+        - [ ] push(item)
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
         - [ ] prepend(item) - can use insert above at index 0
         - [ ] pop() - remove from end, return value
@@ -601,7 +601,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
         - [ ] resize(new_capacity) // private function
-            - [x] when you reach capacity, resize to double the size
+            - [ ] when you reach capacity, resize to double the size
             - [ ] when popping an item, if the size is 1/4 of capacity, resize to half
     - [ ] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
@@ -628,12 +628,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implement (I did with tail pointer & without):
-        - [X] size() - returns the number of data elements in the list
+        - [ ] size() - returns the number of data elements in the list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
         - [ ] push_front(value) - adds an item to the front of the list
         - [ ] pop_front() - remove the front item and return its value
-        - [X] push_back(value) - adds an item at the end
+        - [ ] push_back(value) - adds an item at the end
         - [ ] pop_back() - removes end item and returns its value
         - [ ] front() - get the value of the front item
         - [ ] back() - get the value of the end item
